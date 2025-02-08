@@ -6,7 +6,7 @@ setup(
     author="Ibrahim Mohsin",
     author_email="codingstudentbruh@gmail.com",
     description="A simple pagination library for Discord.py embeds.",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ibrahims-main/EzPage",
     packages=find_packages(),
