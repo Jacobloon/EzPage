@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="ezpage",
-    version="1.0.0",
+    version="2.0.0",
     author="Ibrahim Mohsin",
     author_email="codingstudentbruh@gmail.com",
-    description="A simple pagination library for Discord.py embeds.",
+    description="A simple pagination library for Discord.py.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ibrahims-main/EzPage",

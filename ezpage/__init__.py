@@ -1,1 +1,3 @@
-from .pagination import PaginationView
+from .PaginationEmbedView import PaginationEmbedView
+from .PaginationTextView import PaginationTextView
+from .PaginationImageView import PaginationImageView
