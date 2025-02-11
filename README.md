@@ -272,7 +272,7 @@ async def show_images(ctx):
         'https://link-to-image2.jpg',
         'https://link-to-image3.jpg'
     ]
-    view = ImagePaginationView(images)
+    view = PaginationImageView(images)
     await ctx.send(embed=discord.Embed(), view=view)
 
 bot.run("YOUR_BOT_TOKEN")
@@ -297,7 +297,7 @@ class ImagePagination(commands.Cog):
             'https://link-to-image2.jpg',
             'https://link-to-image3.jpg'
         ]
-        view = ImagePaginationView(images)
+        view = PaginationImageView(images)
         await interaction.response.send_message(embed=discord.Embed(), view=view)
 
 async def setup(bot):
