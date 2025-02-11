@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ezpage",
-    version="2.0.0",
+    version="2.0.1",
     author="Ibrahim Mohsin",
     author_email="codingstudentbruh@gmail.com",
     description="A simple pagination library for Discord.py.",
