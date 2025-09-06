@@ -1,6 +1,6 @@
 import discord
 
-class ImagePaginationView(discord.ui.View):
+class PaginationImageView(discord.ui.View):
     """A reusable pagination view for images"""
 
     def __init__(self, images: list[str], timeout: int = 60):
